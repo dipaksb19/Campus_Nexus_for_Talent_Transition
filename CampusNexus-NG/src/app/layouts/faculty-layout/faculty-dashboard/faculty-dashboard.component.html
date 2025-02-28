@@ -1,0 +1,58 @@
+<div class="flex h-screen">
+    <!-- Sidebar -->
+    <app-faculty-sidebar></app-faculty-sidebar>
+    <!-- Main Content -->
+    <div class="p-6 bg-white">  
+        <div class="mb-10">
+            <h1 class="text-3xl font-bold text-gray-900">Welcome to the Campus Nexus!</h1>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6 text-gray-600">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <div class="ml-4">
+                        <h2 class="text-lg font-semibold text-gray-800">Job Postings</h2>
+                    </div>
+                </div>
+                <div class="mt-4">
+                    <p class="text-gray-600">View and apply for job postings from various companies.</p>
+                </div>
+                <div class="mt-6">
+                    <a [routerLink]="['/student/all-job-postings']"
+                        class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200">View
+                        Job Postings</a>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6 text-gray-600">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <div class="ml-4">
+                        <h2 class="text-lg font-semibold text-gray-800">Applied Jobs</h2>
+                    </div>
+                </div>
+                <div class="mt-4">
+                    <p class="text-gray-600">View and manage your applied jobs.</p>
+                </div>
+                <div class="mt-6">
+                    <a [routerLink]="['/student/applied-jobs']"
+                        class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200">View
+                        Applied Jobs</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
