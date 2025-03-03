@@ -16,12 +16,6 @@
 
 ---
 
-## 👥 Contributors
-
-- **[Mayur Dehade](mailto:dehademayur9@gmail.com)**
-
----
-
 ## ⚙️ Setup
 
 1. 📥 **Clone the repository**:
